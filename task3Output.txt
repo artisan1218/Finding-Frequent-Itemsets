@@ -1,0 +1,3 @@
+Task2,2582
+Task3,2582
+Intersection,1788
