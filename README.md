@@ -1,5 +1,5 @@
 # Finding frequent itemsets
-Finding restaurants tuples that appears in review data from Yelp.com
+Implementation of the SON algorithm on top of the Apache Spark Framework. Find all the possible combinations of the frequent restaurants tuples that appears in review data from Yelp.com within the required time.
 
 ### Sample data
 Sample data is a subset of business.json and review.json data from the Yelp dataset (Done by Preprocess.py).
