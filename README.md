@@ -1,7 +1,7 @@
 # Finding frequent itemsets
 Finding restaurants tuples that appears in review data from Yelp.com
 
-#### Market-Basket model
+### 1. Market-Basket model
 There are two cases related to MB model:
   1. Frequent businesses: combinations of frequent businesses (as singletons, pairs, triples, etc.) that are qualified as frequent given a support threshold
 ```
@@ -11,11 +11,17 @@ user3: [business31, business32, business33, ...]
 ```
     
   3. Frequent users: combinations of frequent users (as singletons, pairs, triples, etc.) that are qualified as frequent given a support threshold.
+```
+business1: [user11, user12, user13, ...]
+business2: [user21, user22, user23, ...]
+business3: [user31, user32, user33, ...]
+```
+The market-basket model is built using SON algorithm with A-Priori algorithm and test using relatively small dataset.
 
-task1 is to build market-basket model and test the implementation of SON algorithm using relatively small dataset.
+### 2. Market-Basket model on frequent businesses with large dataset
+The result is similiar to previous Market-Basket model except that we're working with large dataset this time. So this time I improved the implementation and speeded up the runtime. SON algorithm and A-Priori is also applied here.
+Preprocess.py takes charge of building market-basket model from the large raw data extracted from Yelp.com in json format.
 
-task2 is to finding frequent itemsets in a large file, improving the implementation, speed up the runtime.
+### 3. FP-growth algorithm
+FP-Growth tree algorithm did the same work as task2, this is to compare the runtime and result difference. 
 
-teak3 is the FP-Growth tree algorithm doing the same work as task2, this is to compare the runtime and result difference. 
-
-preprocess takes charge of building market-basket model from the large raw data extracted from Yelp.com in json format.
