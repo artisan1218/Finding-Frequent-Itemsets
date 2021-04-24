@@ -1,6 +1,14 @@
 # Finding frequent itemsets
 Finding restaurants tuples that appears in review data from Yelp.com
 
+### Sample data
+Sample data is a subset of business.json and review.json data from the Yelp dataset (Done by Preprocess.py).
+The raw data is in csv format as shown below:
+
+![image](https://user-images.githubusercontent.com/25105806/115973383-77e95080-a509-11eb-91ae-9952bef1a1d7.png)
+
+
+
 ### 1. SON algorithm/Market-Basket model
 SON algorithm is used to build Market-Basket model. There are two cases related to MB model:
   1. Frequent businesses: combinations of frequent businesses (as singletons, pairs, triples, etc.) that are qualified as frequent given a support threshold
