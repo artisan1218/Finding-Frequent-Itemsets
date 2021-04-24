@@ -9,7 +9,7 @@ The raw data is in csv format as shown below:
 
 
 
-### 1. SON algorithm/Market-Basket model
+### 1. SON algorithm 1/Market-Basket model
 SON algorithm is used to build Market-Basket model. There are two cases related to MB model:
   1. Frequent businesses: combinations of frequent businesses (as singletons, pairs, triples, etc.) that are qualified as frequent given a support threshold
 ```
@@ -26,7 +26,7 @@ business3: [user31, user32, user33, ...]
 ```
 The market-basket model is built using SON algorithm with A-Priori algorithm and test using relatively small dataset.
 
-### 2. Market-Basket model on frequent businesses with large dataset
+### 2. SON algorithm 2/Market-Basket model on frequent businesses with large dataset
 The result is similiar to previous Market-Basket model except that we're working with large dataset this time. So this time I improved the implementation and speeded up the runtime. SON algorithm and A-Priori is also applied here.
 Preprocess.py takes charge of building market-basket model from the large raw data extracted from Yelp.com in json format.
 
