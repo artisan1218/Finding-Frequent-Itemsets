@@ -31,5 +31,6 @@ The result is similiar to previous Market-Basket model except that we're working
 Preprocess.py takes charge of building market-basket model from the large raw data extracted from Yelp.com in json format.
 
 ### 3. FP-growth algorithm
-FP-Growth tree algorithm did the same work as task2, this is to compare the runtime and result difference. 
+The fp-growth algorithm in Spark MLlib is used to do the same work as task2 (to obtain the frequent itemsets). 
+This is to compare the runtime and result difference. 
 
