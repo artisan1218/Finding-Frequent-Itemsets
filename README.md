@@ -1,8 +1,8 @@
 # Finding frequent itemsets
 Finding restaurants tuples that appears in review data from Yelp.com
 
-### 1. Market-Basket model
-There are two cases related to MB model:
+### 1. SON algorithm/Market-Basket model
+SON algorithm is used to build Market-Basket model. There are two cases related to MB model:
   1. Frequent businesses: combinations of frequent businesses (as singletons, pairs, triples, etc.) that are qualified as frequent given a support threshold
 ```
 user1: [business11, business12, business13, ...]
