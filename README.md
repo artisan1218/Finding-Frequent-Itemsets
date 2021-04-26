@@ -18,7 +18,7 @@ user2: [business21, business22, business23, ...]
 user3: [business31, business32, business33, ...]
 ```
     
-  3. Frequent users: combinations of frequent users (as singletons, pairs, triples, etc.) that are qualified as frequent given a support threshold.
+  2. Frequent users: combinations of frequent users (as singletons, pairs, triples, etc.) that are qualified as frequent given a support threshold.
 ```
 business1: [user11, user12, user13, ...]
 business2: [user21, user22, user23, ...]
